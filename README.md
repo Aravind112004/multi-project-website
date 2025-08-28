@@ -15,16 +15,16 @@ The project demonstrates structuring multiple apps inside a single site with a c
 
 ## 📂 Project Structure
 index.html-> links all three pages(portfolio, products,todo-app)
-root.css-> style sheet for index.html
-portfolio-
+root.css-> style sheet for index.html....
+1.portfolio-
      index.html
      style.css
      script.js
- products-
+ 2.products-
      products.html
      products.css
      products.js
- todo-app-
+3.todo-app-
      todo.html
      todo.css
      todo.js
