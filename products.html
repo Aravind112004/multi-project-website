@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="products.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Our Products</h1>
+    <input type="text" id="search" placeholder="Search products...">
+  </header>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button class="filter-btn" data-category="all">All</button>
+    <button class="filter-btn" data-category="electronics">Electronics</button>
+    <button class="filter-btn" data-category="clothing">Clothing</button>
+    <button class="filter-btn" data-category="accessories">Accessories</button>
+  </div>
+
+  <!-- Product Grid -->
+  <section class="product-grid" id="product-list">
+    <!-- Products will be inserted here by JS -->
+  </section>
+
+  <footer>
+    <p>© 2025 Aravind’s Store | Built using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html>
